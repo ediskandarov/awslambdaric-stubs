@@ -4,9 +4,7 @@ install_instructions = """\
 # Experimental awslambdaric type stubs
 
 This package contains type stubs to provide more precise
-static types and type inference for awslambdaric. awslambdaric uses
-dynamic Python features that are hard to understand by static type checkers,
-this is why the plugin is needed in addition to type stubs.
+static types and type inference for awslambdaric.
 
 ## Installation
 
