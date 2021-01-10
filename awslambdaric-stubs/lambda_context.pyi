@@ -7,7 +7,6 @@ https://github.com/aws/aws-lambda-python-runtime-interface-client/blob/main/test
 
 from typing import Dict, Optional
 
-
 class Client:
     app_package_name: Optional[str]
     app_title: Optional[str]
@@ -35,5 +34,4 @@ class LambdaContext:
 
     client_context: ClientContext
     identity: CognitoIdentity
-
     def get_remaining_time_in_millis() -> int: ...
