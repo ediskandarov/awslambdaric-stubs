@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 install_instructions = """\
 # Experimental awslambdaric type stubs
